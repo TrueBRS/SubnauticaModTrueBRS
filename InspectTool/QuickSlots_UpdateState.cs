@@ -28,9 +28,6 @@
 			__instance.SelectImmediate(slot);
 			timeCheck = Time.time + tool.holsterTime;
 			CoroutineHost.StartCoroutine(SelectDelay(__instance, slot));
-			//Player.main.playerAnimator.SetBool("using_tool_first", false);
-			//Player.main.GetPDA().Open(PDATab.Intro, null, null);
-			//Player.main.armsController.SetUsingPda(true);
 		}
 
 		private static IEnumerator SelectDelay(QuickSlots quickSlots, int slot)
