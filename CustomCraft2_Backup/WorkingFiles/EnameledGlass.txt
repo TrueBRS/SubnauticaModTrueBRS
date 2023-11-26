@@ -1,0 +1,26 @@
+AliasRecipes: 
+(
+    ItemID: EnameledGlassDummy;
+    DisplayName: "釉瓷玻璃";
+    Tooltip: "使用天然釉质强化的高强度玻璃。";
+    FunctionalID: EnameledGlass;
+    SpriteItemID: EnameledGlass;
+    UnlockedBy: Glass;
+    ForceUnlockAtStart: NO;
+    AmountCrafted: 0;
+    LinkedItemIDs: EnameledGlass;
+    Ingredients: 
+    (
+        ItemID: Glass;
+        Required: 2;
+    ),
+    (
+        ItemID: Lead;
+        Required: 1;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 2;
+    );
+    Path: Fabricator/Resources/BasicMaterials;
+);

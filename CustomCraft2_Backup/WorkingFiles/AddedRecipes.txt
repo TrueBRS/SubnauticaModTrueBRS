@@ -1,0 +1,21 @@
+AddedRecipes: 
+(
+    ItemID: crashpowder;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: acidmushroom;
+        Required: 4;
+    ),
+    (
+        ItemID: bleach;
+        Required: 1;
+    ),
+    (
+        ItemID: fibermesh;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy:acidmushroom;
+    Path: Fabricator/Resources/BasicMaterials;
+);

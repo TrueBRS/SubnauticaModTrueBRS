@@ -1,0 +1,7 @@
+﻿CustomCraftingTabs: 
+(
+    TabID: AltFood;
+    DisplayName: "帝皇会员食品";
+    SpriteItemID: NutrientBlock;
+    ParentTabPath: Workbench;
+);

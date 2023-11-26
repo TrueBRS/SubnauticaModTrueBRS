@@ -1,0 +1,492 @@
+CustomFoods:
+(
+    ItemID: podOil;
+    DecayRateMod: 0; 
+    DisplayName: "POD特级初榨血油";
+    Tooltip: "原产希腊克里特岛的特级橄榄油，用了本地血油作为替代成分。";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: bleach;
+        Required: 1;
+    ),
+    (
+        ItemID: BloodOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:15;
+    WaterValue:-75;
+    FoodType: bigfilteredwater;
+    UseDrinkSound: YES;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: podOil;
+),
+(
+    ItemID: mBCC;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HoleFish;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedHoleFish;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCC;
+),
+(
+    ItemID: mBCCPeeper;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedPeeper;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCCPeeper;
+    LinkedItemIDs: mBCC;
+),
+(
+    ItemID: mBCCBladderfish;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: Bladderfish;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedBladderfish;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCCBladderfish;
+    LinkedItemIDs: mBCC;
+),
+(
+    ItemID: mBCCGarryFish;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: GarryFish;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedGarryFish;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCCGarryFish;
+    LinkedItemIDs: mBCC;
+),
+(
+    ItemID: mBCCHoverfish;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: Hoverfish;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedHoverfish;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCCHoverfish;
+    LinkedItemIDs: mBCC;
+),
+(
+    ItemID: mBCCReginald;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: Reginald;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedReginald;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCCReginald;
+    LinkedItemIDs: mBCC;
+),
+(
+    ItemID: mBCCSpadefish;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: Spadefish;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedSpadefish;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCCSpadefish;
+    LinkedItemIDs: mBCC;
+),
+(
+    ItemID: mBCCBoomerang;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: Boomerang;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedBoomerang;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCCBoomerang;
+    LinkedItemIDs: mBCC;
+),
+(
+    ItemID: mBCCLavaBoomerang;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: LavaBoomerang;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedLavaBoomerang;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCCLavaBoomerang;
+    LinkedItemIDs: mBCC;
+),
+(
+    ItemID: mBCCEyeye;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: Eyeye;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedEyeye;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCCEyeye;
+    LinkedItemIDs: mBCC;
+),
+(
+    ItemID: mBCCLavaEyeye;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: LavaEyeye;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedLavaEyeye;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCCLavaEyeye;
+    LinkedItemIDs: mBCC;
+),
+(
+    ItemID: mBCCOculus;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: Oculus;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedOculus;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCCOculus;
+    LinkedItemIDs: mBCC;
+),
+(
+    ItemID: mBCCHoopfish;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: Hoopfish;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedHoopfish;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCCHoopfish;
+    LinkedItemIDs: mBCC;
+),
+(
+    ItemID: mBCCSpinefish;
+    DecayRateMod: 0; 
+    DisplayName: "那么大鱼排";
+    Tooltip: "辣椒的劲辣，大蒜和洋葱的辛辣，黑胡椒的热辣，融合成独特风味。";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: Spinefish;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:80;
+    WaterValue:-5;
+    FoodType: CookedSpinefish;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mBCCSpinefish;
+    LinkedItemIDs: mBCC;
+),
+(
+    ItemID: mSCF;
+    DecayRateMod: 0; 
+    DisplayName: "麦辣鱼排汉堡";
+    Tooltip: "为“中国胃”特别研发的当家产品，金黄脆辣的外表下是鲜嫩多汁的鱼排，再配上清爽的生菜和美味沙拉酱，咬一口回味无穷，打动您挑剔的味蕾。";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: mBCC;
+        Required: 1;
+    ),
+    (
+        ItemID: whitemushroom;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:90;
+    WaterValue:-5;
+    FoodType: NutrientBlock;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mSCF;
+),
+(
+    ItemID: mChips;
+    DecayRateMod: 0; 
+    DisplayName: "麦当劳薯条";
+    Tooltip: "精选优质中国土豆，表面微脆，内里绵软，用少许盐调味，美味无人能挡！";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: purplevegetable;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: podOil;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:45;
+    WaterValue:-15;
+    FoodType: NutrientBlock;
+    UseDrinkSound: NO;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: mChips;
+),
+(
+    ItemID: Schweppes;
+    DecayRateMod: 0; 
+    DisplayName: "怡泉苏打水";
+    Tooltip: "怡泉苏打水传承英伦经典工艺，为中国消费者日益提升的品质生活需求提供精致的产品选择。";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: bigfilteredwater;
+        Required: 1;
+    ),
+    (
+        ItemID: coralchunk;
+        Required: 1;
+    );
+    Path: Workbench/AltFood;
+    FoodValue:0;
+    WaterValue:55;
+    FoodType: bigfilteredwater;
+    UseDrinkSound: YES;
+    ForceUnlockAtStart: YES;
+    SpriteItemID: Schweppes;
+);

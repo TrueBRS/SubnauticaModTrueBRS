@@ -1,0 +1,1926 @@
+ModifiedRecipes:(
+    ItemID:FiberMesh;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:CreepvinePiece; Required:3;)
+    ;
+),(
+    ItemID:Glass;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Quartz; Required:3;)
+    ;
+),(
+    ItemID:Titanium;
+    AmountCrafted:5;
+    Ingredients:
+        ( ItemID:ScrapMetal; Required:1;)
+    ;
+),(
+    ItemID:Silicone;
+    AmountCrafted:2;
+    Ingredients:
+        ( ItemID:CreepvineSeedCluster; Required:3;)
+    ;
+),(
+    ItemID:Bleach;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Salt; Required:2;)
+        ,( ItemID:CoralChunk; Required:3;)
+    ;
+),(
+    ItemID:TitaniumIngot;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:20;)
+        ,( ItemID:Lead; Required:1;)
+    ;
+),(
+    ItemID:CopperWire;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Copper; Required:2;)
+    ;
+),(
+    ItemID:WiringKit;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Silver; Required:3;)
+        ,( ItemID:Copper; Required:2;)
+        ,( ItemID:Titanium; Required:4;)
+    ;
+),(
+    ItemID:AdvancedWiringKit;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:WiringKit; Required:1;)
+        ,( ItemID:Gold; Required:3;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
+    ;
+),(
+    ItemID:PlasteelIngot;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:2;)
+        ,( ItemID:Lithium; Required:4;)
+        ,( ItemID:diamond; Required:1;)
+    ;
+),(
+    ItemID:EnameledGlass;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:StalkerTooth; Required:2;)
+        ,( ItemID:Glass; Required:1;)
+    ;
+),(
+    ItemID:PowerCell;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Battery; Required:2;)
+        ,( ItemID:Silicone; Required:1;)
+        ,( ItemID:Lithium; Required:2;)
+        ,( ItemID:CrashPowder; Required:2;)
+    ;
+),(
+    ItemID:ComputerChip;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:JeweledDiskPiece; Required:2;)
+        ,( ItemID:Gold; Required:1;)
+        ,( ItemID:Silver; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:HydrochloricAcid;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:WhiteMushroom; Required:4;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:Polyaniline;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Gold; Required:2;)
+        ,( ItemID:HydrochloricAcid; Required:1;)
+        ,( ItemID:Benzene; Required:1;)
+    ;
+),(
+    ItemID:AramidFibers;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Benzene; Required:1;)
+        ,( ItemID:FiberMesh; Required:2;)
+        ,( ItemID:HydrochloricAcid; Required:1;)
+    ;
+),(
+    ItemID:Aerogel;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:JellyPlant; Required:2;)
+        ,( ItemID:AluminumOxide; Required:1;)
+        ,( ItemID:Quartz; Required:1;)
+    ;
+),(
+    ItemID:Nanowires;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:MercuryOre; Required:10;)
+        ,( ItemID:ComputerChip; Required:5;)
+        ,( ItemID:Gold; Required:5;)
+    ;
+),(
+    ItemID:Benzene;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:BloodOil; Required:3;)
+    ;
+),(
+    ItemID:Lubricant;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:CreepvineSeedCluster; Required:2;)
+        ,( ItemID:DisinfectedWater; Required:1;)
+    ;
+),(
+    ItemID:ReactorRod;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:UraniniteCrystal; Required:3;)
+        ,( ItemID:Lead; Required:3;)
+        ,( ItemID:Titanium; Required:1;)
+        ,( ItemID:EnameledGlass; Required:1;)
+    ;
+),(
+    ItemID:Fins;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Silicone; Required:4;)
+    ;
+),(
+    ItemID:Tank;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:5;)
+        ,( ItemID:Silicone; Required:1;)
+    ;
+),(
+    ItemID:Battery;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:AcidMushroom; Required:5;)
+        ,( ItemID:Copper; Required:2;)
+    ;
+),(
+    ItemID:Knife;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Silicone; Required:1;)
+        ,( ItemID:Titanium; Required:4;)
+    ;
+),(
+    ItemID:Flashlight;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Battery; Required:1;)
+        ,( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:Beacon;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Copper; Required:2;)
+        ,( ItemID:Titanium; Required:2;)
+        ,( ItemID:battery; Required:1;)
+    ;
+),(
+    ItemID:Builder;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ComputerChip; Required:2;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:Battery; Required:1;)
+        ,( ItemID:Titanium; Required:2;)
+        ,( ItemID:Gold; Required:1;)
+        ,( ItemID:Silicone; Required:1;)
+    ;
+),(
+    ItemID:Compass;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:Magnetite; Required:1;)
+        ,( ItemID:Glass; Required:1;)
+    ;
+),(
+    ItemID:AirBladder;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Silicone; Required:1;)
+        ,( ItemID:Bladderfish; Required:2;)
+    ;
+),(
+    ItemID:Terraformer;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:Battery; Required:1;)
+    ;
+),(
+    ItemID:Pipe;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:Thermometer;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Quartz; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:DiveReel;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:battery; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
+        ,( ItemID:Titanium; Required:4;)
+        ,( ItemID:Silicone; Required:1;)
+        ,( ItemID:WiringKit; Required:1;)
+    ;
+),(
+    ItemID:Rebreather;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:WiringKit; Required:1;)
+        ,( ItemID:FiberMesh; Required:1;)
+        ,( ItemID:Silicone; Required:1;)
+        ,( ItemID:EnameledGlass; Required:1;)
+        ,( ItemID:TitaniumIngot; Required:1;)
+    ;
+),(
+    ItemID:RadiationSuit;
+    AmountCrafted:1;
+    LinkedItemIDs:RadiationHelmet,RadiationGloves;
+    Ingredients:
+        ( ItemID:FiberMesh; Required:6;)
+        ,( ItemID:Lead; Required:2;)
+        ,( ItemID:Silicone; Required:4;)
+        ,( ItemID:EnameledGlass; Required:1;)
+    ;
+),(
+    ItemID:ReinforcedDiveSuit;
+    AmountCrafted:1;
+    LinkedItemIDs:ReinforcedGloves;
+    Ingredients:
+        ( ItemID:AramidFibers; Required:3;)
+        ,( ItemID:FiberMesh; Required:2;)
+        ,( ItemID:Diamond; Required:2;)
+        ,( ItemID:Titanium; Required:2;)
+        ,( ItemID:Silicone; Required:5;)
+    ;
+),(
+    ItemID:Scanner;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Battery; Required:1;)
+        ,( ItemID:Titanium; Required:4;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Silicone; Required:1;)
+        ,( ItemID:JeweledDiskPiece; Required:1;)
+    ;
+),(
+    ItemID:FireExtinguisher;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:5;)
+        ,( ItemID:CoralChunk; Required:1;)
+    ;
+),(
+    ItemID:MapRoomHUDChip;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Magnetite; Required:2;)
+        ,( ItemID:Battery; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
+    ;
+),(
+    ItemID:PipeSurfaceFloater;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:5;)
+        ,( ItemID:AirBladder; Required:1;)
+    ;
+),(
+    ItemID:CyclopsDecoy;
+    AmountCrafted:3;
+    Ingredients:
+        ( ItemID:Titanium; Required:3;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Battery; Required:1;)
+    ;
+),(
+    ItemID:DoubleTank;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Tank; Required:1;)
+        ,( ItemID:Quartz; Required:2;)
+        ,( ItemID:Titanium; Required:4;)
+        ,( ItemID:Silicone; Required:1;)
+    ;
+),(
+    ItemID:Welder;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Silicone; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Titanium; Required:3;)
+        ,( ItemID:CrashPowder; Required:2;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:Battery; Required:1;)
+    ;
+),(
+    ItemID:Seaglide;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Battery; Required:1;)
+        ,( ItemID:Lubricant; Required:2;)
+        ,( ItemID:CopperWire; Required:2;)
+        ,( ItemID:TitaniumIngot; Required:1;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+    ;
+),(
+    ItemID:Constructor;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:1;)
+        ,( ItemID:Lubricant; Required:2;)
+        ,( ItemID:PowerCell; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:WiringKit; Required:1;)
+    ;
+),(
+    ItemID:Transfuser;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:Battery; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:Flare;
+    AmountCrafted:5;
+    Ingredients:
+        ( ItemID:CrashPowder; Required:5;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:StasisRifle;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Battery; Required:1;)
+        ,( ItemID:Magnetite; Required:2;)
+        ,( ItemID:Titanium; Required:2;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:Silicone; Required:1;)
+    ;
+),(
+    ItemID:PropulsionCannon;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:WiringKit; Required:1;)
+        ,( ItemID:Battery; Required:1;)
+        ,( ItemID:Titanium; Required:2;)
+        ,( ItemID:Lithium; Required:2;)
+        ,( ItemID:Magnetite; Required:1;)
+        ,( ItemID:Silicone; Required:1;)
+    ;
+),(
+    ItemID:Gravsphere;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Battery; Required:2;)
+        ,( ItemID:Copper; Required:1;)
+        ,( ItemID:Titanium; Required:2;)
+        ,( ItemID:WiringKit; Required:1;)
+    ;
+),(
+    ItemID:SmallStorage;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:4;)
+    ;
+),(
+    ItemID:LaserCutter;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Diamond; Required:2;)
+        ,( ItemID:Battery; Required:1;)
+        ,( ItemID:Titanium; Required:3;)
+        ,( ItemID:CrashPowder; Required:4;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:Silicone; Required:1;)
+    ;
+),(
+    ItemID:LEDLight;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Battery; Required:1;)
+        ,( ItemID:Titanium; Required:2;)
+        ,( ItemID:Glass; Required:1;)
+        ,( ItemID:Copper; Required:2;)
+        ,( ItemID:Silicone; Required:1;)
+    ;
+),(
+    ItemID:DiamondBlade;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Knife; Required:1;)
+        ,( ItemID:Diamond; Required:1;)
+    ;
+),(
+    ItemID:HeatBlade;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Knife; Required:1;)
+        ,( ItemID:Battery; Required:1;)
+    ;
+),(
+    ItemID:LithiumIonBattery;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Battery; Required:1;)
+        ,( ItemID:Lithium; Required:5;)
+    ;
+),(
+    ItemID:PlasteelTank;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:DoubleTank; Required:1;)
+        ,( ItemID:EnameledGlass; Required:1;)
+        ,( ItemID:Silicone; Required:1;)
+    ;
+),(
+    ItemID:HighCapacityTank;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PlasteelTank; Required:1;)
+        ,( ItemID:Nickel; Required:4;)
+        ,( ItemID:Silicone; Required:1;)
+    ;
+),(
+    ItemID:UltraGlideFins;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Fins; Required:1;)
+        ,( ItemID:Silicone; Required:2;)
+        ,( ItemID:Lubricant; Required:1;)
+        ,( ItemID:Lithium; Required:2;)
+    ;
+),(
+    ItemID:SwimChargeFins;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Fins; Required:1;)
+        ,( ItemID:Polyaniline; Required:1;)
+        ,( ItemID:Lithium; Required:2;)
+        ,( ItemID:Battery; Required:2;)
+    ;
+),(
+    ItemID:RepulsionCannon;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PropulsionCannon; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Magnetite; Required:5;)
+        ,( ItemID:Lithium; Required:1;)
+    ;
+),(
+    ItemID:WaterFiltrationSuit;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:AramidFibers; Required:5;)
+        ,( ItemID:Aerogel; Required:4;)
+        ,( ItemID:CopperWire; Required:2;)
+        ,( ItemID:Silicone; Required:5;)
+        ,( ItemID:ComputerChip; Required:1;)
+    ;
+),(
+    ItemID:PowerGlide;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PowerGlide; Required:1;)
+        ,( ItemID:WiringKit; Required:1;)
+    ;
+),(
+    ItemID:Workbench;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Titanium; Required:10;)
+        ,( ItemID:Diamond; Required:2;)
+        ,( ItemID:Lead; Required:2;)
+    ;
+),(
+    ItemID:HullReinforcementModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PlasteelIngot; Required:1;)
+    ;
+),(
+    ItemID:Fabricator;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:5;)
+        ,( ItemID:Gold; Required:2;)
+        ,( ItemID:JeweledDiskPiece; Required:4;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:Silicone; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+    ;
+),(
+    ItemID:Aquarium;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:2;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:Locker;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Quartz; Required:1;)
+        ,( ItemID:Titanium; Required:2;)
+    ;
+),(
+    ItemID:Spotlight;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:3;)
+        ,( ItemID:Copper; Required:1;)
+    ;
+),(
+    ItemID:CurrentGenerator;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Battery; Required:1;)
+        ,( ItemID:Lubricant; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:SpecialHullPlate;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:BikemanHullPlate;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:EatMyDictionHullPlate;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:DevTestItem;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:SpecimenAnalyzer;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:WiringKit; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Titanium; Required:2;)
+    ;
+),(
+    ItemID:HullReinforcementModule2;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ReefbackShell; Required:1;)
+        ,( ItemID:HullReinforcementModule; Required:1;)
+        ,( ItemID:ReefbackDNA; Required:1;)
+    ;
+),(
+    ItemID:HullReinforcementModule3;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ReefbackAdvancedStructure; Required:1;)
+        ,( ItemID:HullReinforcementModule2; Required:1;)
+        ,( ItemID:ReefbackDNA; Required:1;)
+    ;
+),(
+    ItemID:PowerUpgradeModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Benzene; Required:1;)
+        ,( ItemID:Polyaniline; Required:1;)
+    ;
+),(
+    ItemID:SolarPanel;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Quartz; Required:4;)
+        ,( ItemID:Titanium; Required:4;)
+        ,( ItemID:Copper; Required:4;)
+        ,( ItemID:Battery; Required:1;)
+    ;
+),(
+    ItemID:Sign;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:CopperWire; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:PowerTransmitter;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Gold; Required:1;)
+        ,( ItemID:Titanium; Required:3;)
+        ,( ItemID:Lithium; Required:2;)
+    ;
+),(
+    ItemID:Accumulator;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:Bioreactor;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:4;)
+        ,( ItemID:Silver; Required:1;)
+        ,( ItemID:Battery; Required:1;)
+    ;
+),(
+    ItemID:ThermalPlant;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:10;)
+        ,( ItemID:Magnetite; Required:2;)
+        ,( ItemID:Aerogel; Required:1;)
+        ,( ItemID:Lithium; Required:2;)
+        ,( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:PowerCell; Required:1;)
+    ;
+),(
+    ItemID:NuclearReactor;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:1;)
+        ,( ItemID:Lithium; Required:4;)
+        ,( ItemID:Lead; Required:6;)
+        ,( ItemID:Silver; Required:1;)
+        ,( ItemID:AluminumOxide; Required:1;)
+        ,( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:PowerCell; Required:2;)
+    ;
+),(
+    ItemID:SmallLocker;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+    ;
+),(
+    ItemID:Bench;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+    ;
+),(
+    ItemID:PictureFrame;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:CopperWire; Required:1;)
+        ,( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+    ;
+),(
+    ItemID:PlanterPot;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:CreepvinePiece; Required:1;)
+    ;
+),(
+    ItemID:PlanterBox;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:4;)
+        ,( ItemID:CreepvinePiece; Required:2;)
+    ;
+),(
+    ItemID:PlanterShelf;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:1;)
+        ,( ItemID:CreepvinePiece; Required:1;)
+    ;
+),(
+    ItemID:FarmingTray;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:CreepvinePiece; Required:3;)
+    ;
+),(
+    ItemID:FiltrationMachine;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:WiringKit; Required:1;)
+        ,( ItemID:Glass; Required:2;)
+        ,( ItemID:Titanium; Required:4;)
+    ;
+),(
+    ItemID:Techlight;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:2;)
+        ,( ItemID:CopperWire; Required:1;)
+    ;
+),(
+    ItemID:Radio;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:CopperWire; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+    ;
+),(
+    ItemID:PlanterPot2;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:CreepvinePiece; Required:1;)
+    ;
+),(
+    ItemID:PlanterPot3;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:CreepvinePiece; Required:1;)
+    ;
+),(
+    ItemID:MedicalCabinet;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:FiberMesh; Required:3;)
+        ,( ItemID:Silver; Required:4;)
+        ,( ItemID:Titanium; Required:2;)
+    ;
+),(
+    ItemID:CyclopsHullModule1;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PlasteelIngot; Required:1;)
+        ,( ItemID:AluminumOxide; Required:5;)
+        ,( ItemID:Diamond; Required:5;)
+    ;
+),(
+    ItemID:CyclopsHullModule2;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:CyclopsHullModule1; Required:1;)
+        ,( ItemID:PlasteelIngot; Required:1;)
+        ,( ItemID:Nickel; Required:6;)
+        ,( ItemID:AluminumOxide; Required:5;)
+        ,( ItemID:Diamond; Required:5;)
+    ;
+),(
+    ItemID:SingleWallShelf;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:WallShelves;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:3;)
+        ,( ItemID:Glass; Required:1;)
+    ;
+),(
+    ItemID:Bed1;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:3;)
+        ,( ItemID:FiberMesh; Required:1;)
+    ;
+),(
+    ItemID:Bed2;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:3;)
+        ,( ItemID:FiberMesh; Required:1;)
+    ;
+),(
+    ItemID:NarrowBed;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:FiberMesh; Required:1;)
+    ;
+),(
+    ItemID:BatteryCharger;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:WiringKit; Required:1;)
+        ,( ItemID:CopperWire; Required:2;)
+        ,( ItemID:Titanium; Required:4;)
+        ,( ItemID:ComputerChip; Required:1;)
+    ;
+),(
+    ItemID:PowerCellCharger;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:AluminumOxide; Required:2;)
+        ,( ItemID:Titanium; Required:5;)
+        ,( ItemID:Lithium; Required:4;)
+    ;
+),(
+    ItemID:HatchingEnzymes;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:EyesPlantSeed; Required:1;)
+        ,( ItemID:SeaCrownSeed; Required:1;)
+        ,( ItemID:TreeMushroomPiece; Required:1;)
+        ,( ItemID:RedGreenTentacleSeed; Required:1;)
+        ,( ItemID:KooshChunk; Required:1;)
+    ;
+),(
+    ItemID:Centrifuge;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:WiringKit; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Titanium; Required:2;)
+    ;
+),(
+    ItemID:CyclopsShieldModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:Polyaniline; Required:2;)
+        ,( ItemID:PowerCell; Required:2;)
+        ,( ItemID:Diamond; Required:6;)
+    ;
+),(
+    ItemID:CyclopsSonarModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Magnetite; Required:3;)
+        ,( ItemID:AluminumOxide; Required:2;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:Titanium; Required:2;)
+    ;
+),(
+    ItemID:CyclopsSeamothRepairModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Welder; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+    ;
+),(
+    ItemID:CyclopsDecoyModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:3;)
+        ,( ItemID:Lithium; Required:2;)
+        ,( ItemID:Aerogel; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:WiringKit; Required:1;)
+    ;
+),(
+    ItemID:CyclopsFireSuppressionModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Aerogel; Required:4;)
+        ,( ItemID:Sulphur; Required:2;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:WiringKit; Required:1;)
+    ;
+),(
+    ItemID:CyclopsThermalReactorModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Polyaniline; Required:4;)
+        ,( ItemID:Kyanite; Required:4;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:ComputerChip; Required:2;)
+    ;
+),(
+    ItemID:CyclopsHullModule3;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:CyclopsHullModule2; Required:1;)
+        ,( ItemID:PlasteelIngot; Required:1;)
+        ,( ItemID:Kyanite; Required:5;)
+        ,( ItemID:Diamond; Required:5;)
+    ;
+),(
+    ItemID:StarshipCargoCrate;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:StarshipCircuitBox;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:StarshipDesk;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+    ;
+),(
+    ItemID:StarshipChair;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:StarshipMonitor;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:StarshipChair2;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:StarshipChair3;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:CoffeeVendingMachine;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:Quartz; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+    ;
+),(
+    ItemID:BarTable;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:Trashcans;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+    ;
+),(
+    ItemID:LabTrashcan;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:Lead; Required:5;)
+        ,( ItemID:EnameledGlass; Required:1;)
+    ;
+),(
+    ItemID:VendingMachine;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:3;)
+        ,( ItemID:ComputerChip; Required:1;)
+    ;
+),(
+    ItemID:LabCounter;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+    ;
+),(
+    ItemID:Seamoth;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:4;)
+        ,( ItemID:PowerCell; Required:1;)
+        ,( ItemID:Glass; Required:5;)
+        ,( ItemID:Lubricant; Required:5;)
+        ,( ItemID:Lead; Required:6;)
+        ,( ItemID:ComputerChip; Required:2;)
+        ,( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:CopperWire; Required:4;)
+    ;
+),(
+    ItemID:Exosuit;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PlasteelIngot; Required:2;)
+        ,( ItemID:Aerogel; Required:2;)
+        ,( ItemID:EnameledGlass; Required:2;)
+        ,( ItemID:Diamond; Required:4;)
+        ,( ItemID:Lead; Required:8;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:Lubricant; Required:5;)
+        ,( ItemID:PowerCell; Required:2;)
+    ;
+),(
+    ItemID:Cyclops;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PlasteelIngot; Required:8;)
+        ,( ItemID:EnameledGlass; Required:3;)
+        ,( ItemID:Lubricant; Required:5;)
+        ,( ItemID:AdvancedWiringKit; Required:3;)
+        ,( ItemID:Lead; Required:10;)
+        ,( ItemID:ComputerChip; Required:4;)
+        ,( ItemID:Aerogel; Required:5;)
+        ,( ItemID:Diamond; Required:7;)
+        ,( ItemID:AluminumOxide; Required:2;)
+    ;
+),(
+    ItemID:SeamothReinforcementModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PlasteelIngot; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Diamond; Required:2;)
+        ,( ItemID:AluminumOxide; Required:1;)
+        ,( ItemID:WiringKit; Required:1;)
+    ;
+),(
+    ItemID:VehiclePowerUpgradeModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Polyaniline; Required:2;)
+        ,( ItemID:gold; Required:2;)
+        ,( ItemID:WiringKit; Required:1;)
+    ;
+),(
+    ItemID:SeamothSolarCharge;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:EnameledGlass; Required:1;)
+        ,( ItemID:Lithium; Required:5;)
+        ,( ItemID:Polyaniline; Required:1;)
+    ;
+),(
+    ItemID:VehicleStorageModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:5;)
+        ,( ItemID:Lithium; Required:2;)
+        ,( ItemID:Silicone; Required:1;)
+    ;
+),(
+    ItemID:SeamothElectricalDefense;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Polyaniline; Required:1;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:AluminumOxide; Required:5;)
+        ,( ItemID:Diamond; Required:5;)
+    ;
+),(
+    ItemID:VehicleArmorPlating;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PlasteelIngot; Required:1;)
+        ,( ItemID:Lithium; Required:2;)
+        ,( ItemID:Lead; Required:4;)
+        ,( ItemID:Diamond; Required:4;)
+    ;
+),(
+    ItemID:LootSensorMetal;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PlasteelIngot; Required:1;)
+        ,( ItemID:TitaniumIngot; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+    ;
+),(
+    ItemID:LootSensorLithium;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+        ,( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
+        ,( ItemID:Aerogel; Required:1;)
+    ;
+),(
+    ItemID:LootSensorFragment;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PlasteelIngot; Required:1;)
+        ,( ItemID:TitaniumIngot; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+    ;
+),(
+    ItemID:SeamothTorpedoModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:3;)
+        ,( ItemID:Lithium; Required:2;)
+        ,( ItemID:Aerogel; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:AdvancedWiringKit; Required:1;)
+    ;
+),(
+    ItemID:SeamothSonarModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Magnetite; Required:3;)
+        ,( ItemID:AluminumOxide; Required:2;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:WhirlpoolTorpedo;
+    AmountCrafted:2;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:Magnetite; Required:2;)
+    ;
+),(
+    ItemID:VehicleHullModule1;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:1;)
+        ,( ItemID:EnameledGlass; Required:2;)
+        ,( ItemID:Diamond; Required:1;)
+    ;
+),(
+    ItemID:VehicleHullModule2;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:VehicleHullModule1; Required:1;)
+        ,( ItemID:PlasteelIngot; Required:1;)
+        ,( ItemID:Magnetite; Required:5;)
+        ,( ItemID:EnameledGlass; Required:2;)
+        ,( ItemID:Lead; Required:3;)
+        ,( ItemID:Diamond; Required:3;)
+    ;
+),(
+    ItemID:VehicleHullModule3;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:VehicleHullModule2; Required:1;)
+        ,( ItemID:PlasteelIngot; Required:1;)
+        ,( ItemID:AluminumOxide; Required:8;)
+        ,( ItemID:Diamond; Required:6;)
+        ,( ItemID:Lead; Required:6;)
+        ,( ItemID:EnameledGlass; Required:2;)
+    ;
+),(
+    ItemID:ExosuitJetUpgradeModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Nickel; Required:4;)
+        ,( ItemID:Sulphur; Required:4;)
+        ,( ItemID:Titanium; Required:5;)
+        ,( ItemID:Lithium; Required:2;)
+        ,( ItemID:AdvancedWiringKit; Required:1;)
+    ;
+),(
+    ItemID:ExosuitDrillArmModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:5;)
+        ,( ItemID:Diamond; Required:4;)
+        ,( ItemID:Lubricant; Required:2;)
+        ,( ItemID:AluminumOxide; Required:4;)
+    ;
+),(
+    ItemID:ExosuitThermalReactorModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Polyaniline; Required:2;)
+        ,( ItemID:Kyanite; Required:4;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+    ;
+),(
+    ItemID:GasTorpedo;
+    AmountCrafted:2;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:GasPod; Required:4;)
+    ;
+),(
+    ItemID:ExosuitPropulsionArmModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Titanium; Required:5;)
+        ,( ItemID:Magnetite; Required:5;)
+        ,( ItemID:Lithium; Required:2;)
+        ,( ItemID:AluminumOxide; Required:2;)
+    ;
+),(
+    ItemID:ExosuitGrapplingArmModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:Benzene; Required:1;)
+        ,( ItemID:Titanium; Required:5;)
+        ,( ItemID:Lithium; Required:1;)
+        ,( ItemID:FiberMesh; Required:2;)
+        ,( ItemID:Lubricant; Required:2;)
+    ;
+),(
+    ItemID:ExosuitTorpedoArmModule;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:5;)
+        ,( ItemID:Lithium; Required:4;)
+        ,( ItemID:Aerogel; Required:2;)
+        ,( ItemID:AdvancedWiringKit; Required:1;)
+    ;
+),(
+    ItemID:ExoHullModule1;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PlasteelIngot; Required:1;)
+        ,( ItemID:Nickel; Required:3;)
+        ,( ItemID:AluminumOxide; Required:2;)
+    ;
+),(
+    ItemID:ExoHullModule2;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ExoHullModule1; Required:1;)
+        ,( ItemID:AluminumOxide; Required:4;)
+        ,( ItemID:Kyanite; Required:3;)
+        ,( ItemID:Diamond; Required:3;)
+    ;
+),(
+    ItemID:MapRoomUpgradeScanRange;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Copper; Required:2;)
+        ,( ItemID:Magnetite; Required:3;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Gold; Required:2;)
+    ;
+),(
+    ItemID:MapRoomUpgradeScanSpeed;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Silver; Required:3;)
+        ,( ItemID:Gold; Required:3;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Magnetite; Required:1;)
+    ;
+),(
+    ItemID:PrecursorKey_Blue;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PrecursorIonCrystal; Required:1;)
+        ,( ItemID:Kyanite; Required:4;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
+    ;
+),(
+    ItemID:PrecursorKey_Orange;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PrecursorIonCrystal; Required:1;)
+        ,( ItemID:Nickel; Required:4;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
+    ;
+),(
+    ItemID:PrecursorKey_Purple;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PrecursorIonCrystal; Required:1;)
+        ,( ItemID:Diamond; Required:4;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
+    ;
+),(
+    ItemID:PrecursorIonPowerCell;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PrecursorIonBattery; Required:2;)
+        ,( ItemID:Silicone; Required:1;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
+        ,( ItemID:Lithium; Required:4;)
+        ,( ItemID:Polyaniline; Required:1;)
+    ;
+),(
+    ItemID:PrecursorIonBattery;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PrecursorIonCrystal; Required:1;)
+        ,( ItemID:Gold; Required:2;)
+        ,( ItemID:Silver; Required:2;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
+    ;
+),(
+    ItemID:FilteredWater;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Bladderfish; Required:2;)
+    ;
+),(
+    ItemID:DisinfectedWater;
+    AmountCrafted:4;
+    Ingredients:
+        ( ItemID:Bleach; Required:1;)
+    ;
+),(
+    ItemID:CookedPeeper;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Peeper; Required:1;)
+    ;
+),(
+    ItemID:CookedHoleFish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:HoleFish; Required:1;)
+    ;
+),(
+    ItemID:CookedGarryFish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:GarryFish; Required:1;)
+    ;
+),(
+    ItemID:CookedReginald;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Reginald; Required:1;)
+    ;
+),(
+    ItemID:CookedBladderfish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Bladderfish; Required:1;)
+    ;
+),(
+    ItemID:CookedHoverfish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Hoverfish; Required:1;)
+    ;
+),(
+    ItemID:CookedSpadefish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Spadefish; Required:1;)
+    ;
+),(
+    ItemID:CookedBoomerang;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Boomerang; Required:1;)
+    ;
+),(
+    ItemID:CookedEyeye;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Eyeye; Required:1;)
+    ;
+),(
+    ItemID:CookedOculus;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Oculus; Required:1;)
+    ;
+),(
+    ItemID:CookedHoopfish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Hoopfish; Required:1;)
+    ;
+),(
+    ItemID:NutrientBlock;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:CreepvinePiece; Required:2;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:FirstAidKit;
+    AmountCrafted:4;
+    Ingredients:
+        ( ItemID:FiberMesh; Required:4;)
+        ,( ItemID:Bleach; Required:1;)
+    ;
+),(
+    ItemID:CookedSpinefish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Spinefish; Required:1;)
+    ;
+),(
+    ItemID:CookedLavaEyeye;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:LavaEyeye; Required:1;)
+    ;
+),(
+    ItemID:CookedLavaBoomerang;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:LavaBoomerang; Required:1;)
+    ;
+),(
+    ItemID:CuredPeeper;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Peeper; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:CuredHoleFish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:HoleFish; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:CuredGarryFish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:GarryFish; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:CuredReginald;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Reginald; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:CuredBladderfish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Bladderfish; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:CuredHoverfish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Hoverfish; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:CuredSpadefish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Spadefish; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:CuredBoomerang;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Boomerang; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:CuredEyeye;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Eyeye; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:CuredOculus;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Oculus; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:CuredHoopfish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Hoopfish; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:CuredSpinefish;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Spinefish; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:CuredLavaEyeye;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:LavaEyeye; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:CuredLavaBoomerang;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:LavaBoomerang; Required:1;)
+        ,( ItemID:Salt; Required:1;)
+    ;
+),(
+    ItemID:BaseRoom;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:1;)
+    ;
+),(
+    ItemID:BaseHatch;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Quartz; Required:1;)
+        ,( ItemID:Titanium; Required:5;)
+        ,( ItemID:Silicone; Required:2;)
+    ;
+),(
+    ItemID:BaseWall;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+    ;
+),(
+    ItemID:BaseDoor;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:BaseLadder;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:Silicone; Required:1;)
+    ;
+),(
+    ItemID:BaseWindow;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Silicone; Required:1;)
+    ;
+),(
+    ItemID:BaseCorridor;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:4;)
+    ;
+),(
+    ItemID:BaseFoundation;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:1;)
+        ,( ItemID:Lead; Required:2;)
+    ;
+),(
+    ItemID:BaseCorridorI;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:5;)
+    ;
+),(
+    ItemID:BaseCorridorL;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:5;)
+    ;
+),(
+    ItemID:BaseCorridorT;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:7;)
+    ;
+),(
+    ItemID:BaseCorridorX;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:10;)
+    ;
+),(
+    ItemID:BaseReinforcement;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Diamond; Required:5;)
+        ,( ItemID:Titanium; Required:5;)
+    ;
+),(
+    ItemID:BaseBulkhead;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:1;)
+        ,( ItemID:Silicone; Required:2;)
+        ,( ItemID:Diamond; Required:2;)
+    ;
+),(
+    ItemID:BaseCorridorGlassI;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:2;)
+        ,( ItemID:Titanium; Required:3;)
+    ;
+),(
+    ItemID:BaseCorridorGlassL;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:3;)
+        ,( ItemID:Titanium; Required:3;)
+    ;
+),(
+    ItemID:BaseObservatory;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:EnameledGlass; Required:3;)
+        ,( ItemID:TitaniumIngot; Required:1;)
+    ;
+),(
+    ItemID:BaseConnector;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:Silicone; Required:1;)
+        ,( ItemID:Glass; Required:1;)
+    ;
+),(
+    ItemID:BaseMoonpool;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:2;)
+        ,( ItemID:Lubricant; Required:2;)
+        ,( ItemID:Lead; Required:4;)
+        ,( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:Silicone; Required:1;)
+    ;
+),(
+    ItemID:BaseCorridorGlass;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:2;)
+    ;
+),(
+    ItemID:BaseUpgradeConsole;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:5;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
+        ,( ItemID:WiringKit; Required:1;)
+        ,( ItemID:Glass; Required:1;)
+    ;
+),(
+    ItemID:BasePlanter;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:CreepvinePiece; Required:2;)
+    ;
+),(
+    ItemID:BaseFiltrationMachine;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:Glass; Required:2;)
+        ,( ItemID:Titanium; Required:6;)
+        ,( ItemID:CreepvinePiece; Required:5;)
+    ;
+),(
+    ItemID:BaseWaterPark;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:EnameledGlass; Required:1;)
+        ,( ItemID:Glass; Required:4;)
+        ,( ItemID:Titanium; Required:3;)
+    ;
+),(
+    ItemID:BaseMapRoom;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:1;)
+        ,( ItemID:Magnetite; Required:5;)
+        ,( ItemID:Gold; Required:4;)
+        ,( ItemID:JeweledDiskPiece; Required:4;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:WiringKit; Required:1;)
+    ;
+),(
+    ItemID:MapRoomCamera;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:Battery; Required:1;)
+        ,( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:5;)
+    ;
+),(
+    ItemID:BaseBioReactor;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:1;)
+        ,( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:Lithium; Required:2;)
+        ,( ItemID:Glass; Required:1;)
+        ,( ItemID:Battery; Required:5;)
+    ;
+),(
+    ItemID:BaseNuclearReactor;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:EnameledGlass; Required:1;)
+        ,( ItemID:Lithium; Required:5;)
+        ,( ItemID:Lead; Required:10;)
+        ,( ItemID:AluminumOxide; Required:5;)
+        ,( ItemID:ComputerChip; Required:1;)
+        ,( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:PlasteelIngot; Required:1;)
+    ;
+),(
+    ItemID:BasePipeConnector;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Titanium; Required:5;)
+    ;
+),(
+    ItemID:RocketBase;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:10;)
+        ,( ItemID:AdvancedWiringKit; Required:1;)
+        ,( ItemID:Lead; Required:10;)
+        ,( ItemID:AirBladder; Required:8;)
+    ;
+),(
+    ItemID:RocketBaseLadder;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:TitaniumIngot; Required:4;)
+        ,( ItemID:CopperWire; Required:4;)
+        ,( ItemID:Lubricant; Required:6;)
+        ,( ItemID:AdvancedWiringKit; Required:1;)
+    ;
+),(
+    ItemID:RocketStage1;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PlasteelIngot; Required:2;)
+        ,( ItemID:Nickel; Required:5;)
+        ,( ItemID:Aerogel; Required:4;)
+        ,( ItemID:WiringKit; Required:3;)
+        ,( ItemID:Polyaniline; Required:2;)
+        ,( ItemID:Sulphur; Required:2;)
+        ,( ItemID:Kyanite; Required:4;)
+    ;
+),(
+    ItemID:RocketStage2;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:PlasteelIngot; Required:2;)
+        ,( ItemID:Sulphur; Required:5;)
+        ,( ItemID:Kyanite; Required:5;)
+        ,( ItemID:PrecursorIonPowerCell; Required:4;)
+        ,( ItemID:Polyaniline; Required:2;)
+        ,( ItemID:Aerogel; Required:2;)
+        ,( ItemID:AdvancedWiringKit; Required:2;)
+    ;
+),(
+    ItemID:RocketStage3;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:CyclopsShieldModule; Required:1;)
+        ,( ItemID:PlasteelIngot; Required:1;)
+        ,( ItemID:EnameledGlass; Required:4;)
+        ,( ItemID:AdvancedWiringKit; Required:2;)
+        ,( ItemID:CyclopsFireSuppressionModule; Required:1;)
+        ,( ItemID:Aerogel; Required:5;)
+        ,( ItemID:Polyaniline; Required:2;)
+        ,( ItemID:AluminumOxide; Required:3;)
+        ,( ItemID:Diamond; Required:3;)
+        ,( ItemID:FiberMesh; Required:1;)
+    ;
+),(
+    ItemID:DioramaHullPlate;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:MarkiplierHullPlate;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:MuyskermHullPlate;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:LordMinionHullPlate;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:JackSepticEyeHullPlate;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:IGPHullPlate;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:GilathissHullPlate;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:Marki1;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:Marki2;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:JackSepticEye;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+),(
+    ItemID:EatMyDiction;
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID:Glass; Required:1;)
+        ,( ItemID:Titanium; Required:1;)
+    ;
+);
