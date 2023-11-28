@@ -47,7 +47,7 @@ ModifiedRecipes:(
     AmountCrafted:1;
     Ingredients:
         ( ItemID:Silver; Required:3;)
-        ,( ItemID:Copper; Required:2;)
+        ,( ItemID:CopperWire; Required:1;)
         ,( ItemID:Titanium; Required:4;)
     ;
 ),(
@@ -172,7 +172,7 @@ ModifiedRecipes:(
     AmountCrafted:1;
     Ingredients:
         ( ItemID:AcidMushroom; Required:5;)
-        ,( ItemID:Copper; Required:2;)
+        ,( ItemID:CopperWire; Required:1;)
     ;
 ),(
     ItemID:Knife;
@@ -193,7 +193,7 @@ ModifiedRecipes:(
     ItemID:Beacon;
     AmountCrafted:1;
     Ingredients:
-        ( ItemID:Copper; Required:2;)
+        ( ItemID:CopperWire; Required:1;)
         ,( ItemID:Titanium; Required:2;)
         ,( ItemID:battery; Required:1;)
     ;
@@ -411,7 +411,7 @@ ModifiedRecipes:(
     AmountCrafted:1;
     Ingredients:
         ( ItemID:Battery; Required:2;)
-        ,( ItemID:Copper; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
         ,( ItemID:Titanium; Required:2;)
         ,( ItemID:WiringKit; Required:1;)
     ;
@@ -439,7 +439,7 @@ ModifiedRecipes:(
         ( ItemID:Battery; Required:1;)
         ,( ItemID:Titanium; Required:2;)
         ,( ItemID:Glass; Required:1;)
-        ,( ItemID:Copper; Required:2;)
+        ,( ItemID:CopperWire; Required:1;)
         ,( ItemID:Silicone; Required:1;)
     ;
 ),(
@@ -569,7 +569,7 @@ ModifiedRecipes:(
     Ingredients:
         ( ItemID:Glass; Required:1;)
         ,( ItemID:Titanium; Required:3;)
-        ,( ItemID:Copper; Required:1;)
+        ,( ItemID:CopperWire; Required:1;)
     ;
 ),(
     ItemID:CurrentGenerator;
@@ -645,7 +645,7 @@ ModifiedRecipes:(
     Ingredients:
         ( ItemID:Quartz; Required:4;)
         ,( ItemID:Titanium; Required:4;)
-        ,( ItemID:Copper; Required:4;)
+        ,( ItemID:CopperWire; Required:2;)
         ,( ItemID:Battery; Required:1;)
     ;
 ),(
@@ -1300,7 +1300,7 @@ ModifiedRecipes:(
     ItemID:MapRoomUpgradeScanRange;
     AmountCrafted:1;
     Ingredients:
-        ( ItemID:Copper; Required:2;)
+        ( ItemID:CopperWire; Required:1;)
         ,( ItemID:Magnetite; Required:3;)
         ,( ItemID:ComputerChip; Required:1;)
         ,( ItemID:Gold; Required:2;)

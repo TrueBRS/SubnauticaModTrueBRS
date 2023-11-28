@@ -1,11 +1,11 @@
 AddedRecipes: 
 (
     ItemID: crashpowder;
-    AmountCrafted: 1;
+    AmountCrafted: 5;
     Ingredients: 
     (
         ItemID: acidmushroom;
-        Required: 4;
+        Required: 5;
     ),
     (
         ItemID: bleach;
@@ -16,6 +16,6 @@ AddedRecipes:
         Required: 1;
     );
     ForceUnlockAtStart: NO;
-    UnlockedBy:acidmushroom;
+    UnlockedBy:fibermesh;
     Path: Fabricator/Resources/BasicMaterials;
 );

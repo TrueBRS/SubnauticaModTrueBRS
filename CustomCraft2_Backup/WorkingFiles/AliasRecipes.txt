@@ -1,0 +1,89 @@
+AliasRecipes: 
+(
+    ItemID: EnameledGlassDummy;
+    DisplayName: "釉瓷玻璃";
+    Tooltip: "使用天然釉质强化的高强度玻璃。";
+    FunctionalID: EnameledGlass;
+    SpriteItemID: EnameledGlass;
+    UnlockedBy: Glass;
+    ForceUnlockAtStart: NO;
+    AmountCrafted: 0;
+    LinkedItemIDs: EnameledGlass;
+    Ingredients: 
+    (
+        ItemID: Glass;
+        Required: 2;
+    ),
+    (
+        ItemID: Lead;
+        Required: 1;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 2;
+    );
+    Path: Fabricator/Resources/BasicMaterials;
+),
+(
+    ItemID: smallstorageDummy;
+    DisplayName: "钛矿石 (x4)";
+    Tooltip: "分解防水储物箱以获取钛矿石。";
+    FunctionalID: Titanium;
+    SpriteItemID: Titanium;
+    ForceUnlockAtStart: YES;
+    AmountCrafted: 0;
+    LinkedItemIDs: Titanium,Titanium,Titanium,Titanium;
+    Ingredients: 
+    (
+        ItemID: smallstorage;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials;
+),
+(
+    ItemID: BaseMapRoomSmall;
+    DisplayName: "扫描室微缩态资源包";
+    Tooltip: "包含打印一个扫描室的资源。";
+    FunctionalID: BloodOil;
+    SpriteItemID: BaseMapRoom;
+    UnlockedBy: BaseMapRoom;
+    ForceUnlockAtStart: NO;
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID:TitaniumIngot; Required:1;
+    ),
+    (
+        ItemID:Magnetite; Required:5;
+    ),
+    (
+        ItemID:Gold; Required:4;
+    ),
+    (
+        ItemID:JeweledDiskPiece; Required:4;
+    ),
+    (
+        ItemID:ComputerChip; Required:1;
+    ),
+    (
+        ItemID:WiringKit; Required:1;
+    );
+    Path: Fabricator/Resources/AdvancedMaterials;
+),
+(
+    ItemID: BaseMapRoomSmallUnpack;
+    DisplayName: "结构扫描室微缩态资源包";
+    Tooltip: "从资源包结构出资源。";
+    FunctionalID: BloodOil;
+    SpriteItemID: BaseMapRoom;
+    UnlockedBy: BaseMapRoom;
+    ForceUnlockAtStart: NO;
+    AmountCrafted: 0;
+    LinkedItemIDs: TitaniumIngot,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Gold,Gold,Gold,Gold,JeweledDiskPiece,JeweledDiskPiece,JeweledDiskPiece,JeweledDiskPiece,ComputerChip,WiringKit;
+    Ingredients: 
+    (
+        ItemID: BaseMapRoomSmall;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/AdvancedMaterials;
+);
