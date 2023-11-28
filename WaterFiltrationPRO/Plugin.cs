@@ -19,8 +19,6 @@ namespace WaterFiltrationPRO
 
 		private void Awake()
 		{
-			LanguageHandler.RegisterLocalizationFolder();
-
 			// Set up Mod Options
 			ModOptions = OptionsPanelHandler.RegisterModOptions<ModOptions>();
 
