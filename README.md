@@ -8,3 +8,5 @@ InspectTool = ToolInspection by MrPurple6411
 DrillableScan = DrillableScan by Vlad-00003 updated by narybelieve
 
 DeleteCookedFish = Edited from Tweaks-and-Fixes by qqqbbb
+
+FastConstruction = Fast Build by Remodor
