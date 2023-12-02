@@ -1,7 +1,8 @@
-﻿namespace PDA_Reboot
+﻿using HarmonyLib;
+using UnityEngine;
+
+namespace PDA_Reboot
 {
-	using HarmonyLib;
-	using UnityEngine;
 
 	[HarmonyPatch(typeof(QuickSlots), nameof(QuickSlots.UpdateState))]
 	internal class QuickSlots_UpdateState
@@ -14,9 +15,19 @@
 				return;
 			}
 
-			Player.main.GetPDA().Open(PDATab.Intro, null, null);
-			//Player.main.playerAnimator.SetBool("using_tool_first", true);
-			//Player.main.armsController.SetUsingPda(true);
+			if (Plugin.ModOptions.randomRebootEnable && (Random.value <= Plugin.ModOptions.randomRebootChance / 100f))
+			{
+				Player.main.GetPDA().Open(PDATab.Intro, null, null);
+			}
+			else if (!Plugin.ModOptions.randomRebootEnable)
+			{
+				Player.main.GetPDA().Open(PDATab.Intro, null, null);
+			}
+			else
+			{
+				//Player.main.GetPDA().Open(PDATab.Inventory, null, null);
+				Player.main.GetPDA().Open();
+			}
 		}
 	}
 }
