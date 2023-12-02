@@ -1,0 +1,11 @@
+MovedRecipes:
+(
+    ItemID: FilteredWater;
+    OldPath: Fabricator/Survival/Water; # OldPath is the path this crafting node was originally located in.#
+    NewPath: Fabricator/Survival; # NewPath is where you want the crafting node to go to. #
+),
+(
+    ItemID: DisinfectedWater;
+    OldPath: Fabricator/Survival/Water; # OldPath is the path this crafting node was originally located in.#
+    NewPath: Fabricator/Survival; # NewPath is where you want the crafting node to go to. #
+);

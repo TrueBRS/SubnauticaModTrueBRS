@@ -543,8 +543,7 @@ ModifiedRecipes:(
     AmountCrafted:1;
     Ingredients:
         ( ItemID:Titanium; Required:5;)
-        ,( ItemID:Gold; Required:2;)
-        ,( ItemID:JeweledDiskPiece; Required:4;)
+        ,( ItemID:CopperWire; Required:1;)
         ,( ItemID:WiringKit; Required:1;)
         ,( ItemID:Silicone; Required:1;)
         ,( ItemID:ComputerChip; Required:1;)
