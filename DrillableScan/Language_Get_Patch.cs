@@ -8,11 +8,11 @@ namespace DrillableScan
     {
         static bool Prefix(Language __instance, ref string __result, string key)
         {
-            if (key.IndexOf("drillable", StringComparison.OrdinalIgnoreCase) >= 0)
+            if (key!= null && key.IndexOf("drillable", StringComparison.OrdinalIgnoreCase) >= 0)
             {
                 if (__instance.TryGet(key, out __result))
                 {
-                    //__result += "";
+                    __result += "";
                     return false;
                 }
             }
