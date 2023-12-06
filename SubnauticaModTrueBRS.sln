@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrillableScan", "DrillableS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteCookedFish", "Remove_Cooked_Fish\DeleteCookedFish.csproj", "{59B9E6CE-759D-42A9-871E-67DDC210B361}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastConstruction", "FastConstruction\FastConstruction.csproj", "{0B619C74-3C79-4003-9C96-A1DEA3488288}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastConstruction", "FastConstruction\FastConstruction.csproj", "{0B619C74-3C79-4003-9C96-A1DEA3488288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceNotificationInterval", "VoiceNotificationInterval\VoiceNotificationInterval.csproj", "{8C8331FF-ED23-4B86-9022-537000A62667}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{0B619C74-3C79-4003-9C96-A1DEA3488288}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B619C74-3C79-4003-9C96-A1DEA3488288}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B619C74-3C79-4003-9C96-A1DEA3488288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8331FF-ED23-4B86-9022-537000A62667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8331FF-ED23-4B86-9022-537000A62667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8331FF-ED23-4B86-9022-537000A62667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8331FF-ED23-4B86-9022-537000A62667}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
