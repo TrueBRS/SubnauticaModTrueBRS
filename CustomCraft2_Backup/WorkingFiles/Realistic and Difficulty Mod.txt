@@ -27,14 +27,14 @@ ModifiedRecipes:(
     AmountCrafted:1;
     Ingredients:
         ( ItemID:Salt; Required:2;)
-        ,( ItemID:CoralChunk; Required:3;)
+        ,( ItemID:CoralChunk; Required:2;)
     ;
 ),(
     ItemID:TitaniumIngot;
     AmountCrafted:1;
     Ingredients:
-        ( ItemID:Titanium; Required:20;)
-        ,( ItemID:Lead; Required:1;)
+        ( ItemID:Titanium; Required:10;)
+        ,( ItemID:Lead; Required:2;)
     ;
 ),(
     ItemID:CopperWire;
@@ -64,8 +64,8 @@ ModifiedRecipes:(
     AmountCrafted:1;
     Ingredients:
         ( ItemID:TitaniumIngot; Required:2;)
-        ,( ItemID:Lithium; Required:4;)
-        ,( ItemID:diamond; Required:1;)
+        ,( ItemID:Lithium; Required:2;)
+        ,( ItemID:diamond; Required:2;)
     ;
 ),(
     ItemID:EnameledGlass;
@@ -299,8 +299,8 @@ ModifiedRecipes:(
     ItemID:FireExtinguisher;
     AmountCrafted:1;
     Ingredients:
-        ( ItemID:Titanium; Required:5;)
-        ,( ItemID:CoralChunk; Required:1;)
+        ( ItemID:Titanium; Required:2;)
+        ,( ItemID:CoralChunk; Required:2;)
     ;
 ),(
     ItemID:MapRoomHUDChip;
@@ -528,7 +528,7 @@ ModifiedRecipes:(
     AmountCrafted:1;
     Ingredients:
         ( ItemID:ComputerChip; Required:1;)
-        ,( ItemID:Titanium; Required:10;)
+        ,( ItemID:Titanium; Required:5;)
         ,( ItemID:Diamond; Required:2;)
         ,( ItemID:Lead; Required:2;)
     ;
@@ -642,7 +642,7 @@ ModifiedRecipes:(
     ItemID:SolarPanel;
     AmountCrafted:1;
     Ingredients:
-        ( ItemID:Quartz; Required:4;)
+        ( ItemID:Glass; Required:1;)
         ,( ItemID:Titanium; Required:4;)
         ,( ItemID:CopperWire; Required:2;)
         ,( ItemID:Battery; Required:1;)
@@ -680,7 +680,7 @@ ModifiedRecipes:(
     ItemID:ThermalPlant;
     AmountCrafted:1;
     Ingredients:
-        ( ItemID:Titanium; Required:10;)
+        ( ItemID:TitaniumIngot; Required:1;)
         ,( ItemID:Magnetite; Required:2;)
         ,( ItemID:Aerogel; Required:1;)
         ,( ItemID:Lithium; Required:2;)
@@ -1638,13 +1638,13 @@ ModifiedRecipes:(
     ItemID:BaseCorridorT;
     AmountCrafted:1;
     Ingredients:
-        ( ItemID:Titanium; Required:7;)
+        ( ItemID:Titanium; Required:5;)
     ;
 ),(
     ItemID:BaseCorridorX;
     AmountCrafted:1;
     Ingredients:
-        ( ItemID:Titanium; Required:10;)
+        ( ItemID:Titanium; Required:5;)
     ;
 ),(
     ItemID:BaseReinforcement;
@@ -1657,7 +1657,7 @@ ModifiedRecipes:(
     ItemID:BaseBulkhead;
     AmountCrafted:1;
     Ingredients:
-        ( ItemID:TitaniumIngot; Required:1;)
+        ( ItemID:Titanium; Required:5;)
         ,( ItemID:Silicone; Required:2;)
         ,( ItemID:Diamond; Required:2;)
     ;

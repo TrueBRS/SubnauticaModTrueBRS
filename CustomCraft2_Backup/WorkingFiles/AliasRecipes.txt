@@ -21,6 +21,111 @@ AliasRecipes:
     Path: Fabricator/Resources/BasicMaterials;
 ),
 (
+    ItemID: IonGoldDiamond;
+    DisplayName: "金矿石";
+    Tooltip: "使用外星离子科技转化。";
+    FunctionalID: PrecursorKey_Orange;
+    SpriteItemID: Gold;
+    UnlockedBy: PrecursorKey_Purple;
+    ForceUnlockAtStart: NO;
+    AmountCrafted: 0;
+    LinkedItemIDs: Gold;
+    Ingredients: 
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 2;
+    );
+    Path: Fabricator/Resources/BasicMaterials;
+),
+(
+    ItemID: IonGoldLithium;
+    DisplayName: "金矿石";
+    Tooltip: "使用外星离子科技转化。";
+    FunctionalID: PrecursorKey_Orange;
+    SpriteItemID: Gold;
+    UnlockedBy: PrecursorKey_Purple;
+    ForceUnlockAtStart: NO;
+    AmountCrafted: 0;
+    LinkedItemIDs: Gold;
+    Ingredients: 
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 2;
+    );
+    Path: Fabricator/Resources/BasicMaterials;
+),
+(
+    ItemID: IonDiamond;
+    DisplayName: "钻石";
+    Tooltip: "使用外星离子科技转化。";
+    FunctionalID: PrecursorKey_Blue;
+    SpriteItemID: Diamond;
+    UnlockedBy: PrecursorKey_Purple;
+    ForceUnlockAtStart: NO;
+    AmountCrafted: 0;
+    LinkedItemIDs: Diamond;
+    Ingredients: 
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: gold;
+        Required: 2;
+    );
+    Path: Fabricator/Resources/BasicMaterials;
+),
+(
+    ItemID: IonLithium;
+    DisplayName: "锂矿石";
+    Tooltip: "使用外星离子科技转化。";
+    FunctionalID: PrecursorKey_Purple;
+    SpriteItemID: Lithium;
+    UnlockedBy: PrecursorKey_Purple;
+    ForceUnlockAtStart: NO;
+    AmountCrafted: 0;
+    LinkedItemIDs: Lithium;
+    Ingredients: 
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: gold;
+        Required: 2;
+    );
+    Path: Fabricator/Resources/BasicMaterials;
+),
+(
+    ItemID: bigfilteredwaterDummy;
+    DisplayName: "消毒后的水";
+    Tooltip: "用大瓶过滤水制成消毒后的水。";
+    FunctionalID: DisinfectedWater;
+    SpriteItemID: DisinfectedWater;
+    UnlockedBy: basefiltrationmachine;
+    ForceUnlockAtStart: NO;
+    AmountCrafted: 0;
+    LinkedItemIDs: DisinfectedWater;
+    Ingredients: 
+    (
+        ItemID: bigfilteredwater;
+        Required: 2;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    );
+    Path: Fabricator/Survival;
+),
+(
     ItemID: smallstorageDummy;
     DisplayName: "钛矿石 (x4)";
     Tooltip: "分解防水储物箱以获取钛矿石。";
@@ -40,7 +145,7 @@ AliasRecipes:
     ItemID: BaseMapRoomSmall;
     DisplayName: "扫描室微缩态资源包";
     Tooltip: "包含打印一个扫描室的资源。";
-    FunctionalID: BloodOil;
+    FunctionalID: ComputerChip;
     SpriteItemID: BaseMapRoom;
     UnlockedBy: BaseMapRoom;
     ForceUnlockAtStart: NO;
@@ -68,9 +173,9 @@ AliasRecipes:
 ),
 (
     ItemID: BaseMapRoomSmallUnpack;
-    DisplayName: "结构扫描室微缩态资源包";
-    Tooltip: "从资源包结构出资源。";
-    FunctionalID: BloodOil;
+    DisplayName: "解构扫描室微缩态资源包";
+    Tooltip: "从资源包解构出资源。";
+    FunctionalID: ComputerChip;
     SpriteItemID: BaseMapRoom;
     UnlockedBy: BaseMapRoom;
     ForceUnlockAtStart: NO;
@@ -79,6 +184,133 @@ AliasRecipes:
     Ingredients: 
     (
         ItemID: BaseMapRoomSmall;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/AdvancedMaterials;
+),
+(
+    ItemID: PowerCellChargerSmall;
+    DisplayName: "动力电池充电器微缩态资源包";
+    Tooltip: "包含打印一个动力电池充电器的资源。";
+    FunctionalID: ComputerChip;
+    SpriteItemID: PowerCellCharger;
+    UnlockedBy: PowerCellCharger;
+    ForceUnlockAtStart: NO;
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID:AdvancedWiringKit; Required:1;
+    ),
+    (
+        ItemID:AluminumOxide; Required:2;
+    ),
+    (
+        ItemID:Titanium; Required:5;
+    ),
+    (
+        ItemID:Lithium; Required:4;
+    );
+    Path: Fabricator/Resources/AdvancedMaterials;
+),
+(
+    ItemID: PowerCellChargerSmallUnpack;
+    DisplayName: "解构动力电池充电器微缩态资源包";
+    Tooltip: "从资源包解构出资源。";
+    FunctionalID: ComputerChip;
+    SpriteItemID: PowerCellCharger;
+    UnlockedBy: PowerCellCharger;
+    ForceUnlockAtStart: NO;
+    AmountCrafted: 0;
+    LinkedItemIDs: AdvancedWiringKit,AluminumOxide,AluminumOxide,Titanium,Titanium,Titanium,Titanium,Titanium,Lithium,Lithium,Lithium,Lithium;
+    Ingredients: 
+    (
+        ItemID: PowerCellChargerSmall;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/AdvancedMaterials;
+),
+(
+    ItemID: BioReactorSmall;
+    DisplayName: "生物反应堆微缩态资源包";
+    Tooltip: "包含打印一个生物反应堆的资源。";
+    FunctionalID: ComputerChip;
+    SpriteItemID: BaseBioReactor;
+    UnlockedBy: BaseBioReactor;
+    ForceUnlockAtStart: NO;
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID:TitaniumIngot; Required:1;
+    ),
+    (
+        ItemID:AdvancedWiringKit; Required:1;
+    ),
+    (
+        ItemID:Lithium; Required:2;
+    ),
+    (
+        ItemID:Glass; Required:1;
+    ),
+    (
+        ItemID:Battery; Required:5;
+    );
+    Path: Fabricator/Resources/AdvancedMaterials;
+),
+(
+    ItemID: BioReactorSmallUnpack;
+    DisplayName: "解构生物反应堆微缩态资源包";
+    Tooltip: "从资源包解构出资源。";
+    FunctionalID: ComputerChip;
+    SpriteItemID: BaseBioReactor;
+    UnlockedBy: BaseBioReactor;
+    ForceUnlockAtStart: NO;
+    AmountCrafted: 0;
+    LinkedItemIDs: TitaniumIngot,AdvancedWiringKit,Lithium,Lithium,Glass,Battery,Battery,Battery,Battery,Battery;
+    Ingredients: 
+    (
+        ItemID: BioReactorSmall;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/AdvancedMaterials;
+),
+(
+    ItemID: FabricatorSmall;
+    DisplayName: "工作台微缩态资源包";
+    Tooltip: "包含打印一个工作台的资源。";
+    FunctionalID: ComputerChip;
+    SpriteItemID: Fabricator;
+    ForceUnlockAtStart: YES;
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID:Titanium; Required:5;
+    ),
+    (
+        ItemID:CopperWire; Required:1;
+    ),
+    (
+        ItemID:WiringKit; Required:1;
+    ),
+    (
+        ItemID:Silicone; Required:1;
+    ),
+    (
+        ItemID:ComputerChip; Required:1;
+    );
+    Path: Fabricator/Resources/AdvancedMaterials;
+),
+(
+    ItemID: FabricatorSmallUnpack;
+    DisplayName: "解构工作台微缩态资源包";
+    Tooltip: "从资源包解构出资源。";
+    FunctionalID: ComputerChip;
+    SpriteItemID: Fabricator;
+    ForceUnlockAtStart: YES;
+    AmountCrafted: 0;
+    LinkedItemIDs: Titanium,Titanium,Titanium,Titanium,Titanium,CopperWire,WiringKit,Silicone,ComputerChip;
+    Ingredients: 
+    (
+        ItemID: FabricatorSmall;
         Required: 1;
     );
     Path: Fabricator/Resources/AdvancedMaterials;
